@@ -28,3 +28,30 @@
 execute app.js by node js :
     
     node app.js
+
+## Create React App
+1. Install create-react-app(an officially supported way to create React applications) by running this command in your terminal:
+    
+    npm install -g create-react-app
+    
+2. create a React application named myfirstreact:
+
+    npx create-react-app myfirstreact
+    
+2-2. fix issue : install npm i
+    
+    npm i
+    
+3. move to the myfirstreact directory
+
+    cd myfirstreact
+    
+4. execute the React application myfirstreact
+    
+    npm start
+    
+4-2. fix issue npm start 
+    
+    npm install react-scripts@2.1.8
+    npm start
+    

@@ -22,6 +22,7 @@
  
     var msg = "Hello World.";
     console.log(msg);
+    
  
 ## run first app by node js use vscode terminal or terminal
 execute app.js by node js :

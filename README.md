@@ -5,20 +5,23 @@
  - run first app by node js use vscode terminal or terminal
  
 ## create first app by vscode
- 1. create your workspace. e.g. D:\VScode_workspace1
- 2. open terminal in dir. workspace.
- 3. create folder. e.g. hello
+create your workspace. e.g. D:\VScode_workspace1
+
+open terminal in dir. workspace.
+
+create folder. e.g. hello
  
     mkdir hello
     
- 4. open project by vscode
+open project by vscode
  
     cd hello
     code .
     
- 5. create first app.js in project
+ create first app.js in project    
      vscode : explorer -> hello -> new file -> app.js
- 6. example code for first app e.g. app.js:
+ 
+ example code for first app e.g. app.js:
  
     var msg = "Hello World.";
     console.log(msg);
@@ -30,27 +33,27 @@ execute app.js by node js :
     node app.js
 
 ## Create React App
-1. Install create-react-app(an officially supported way to create React applications) by running this command in your terminal:
+Install create-react-app(an officially supported way to create React applications) by running this command in your terminal:
     
     npm install -g create-react-app
     
-2. create a React application named myfirstreact:
+create a React application named myfirstreact:
 
     npx create-react-app myfirstreact
     
-2-2. fix issue : install npm i
+fix issue : install npm i
     
     npm i
     
-3. move to the myfirstreact directory
+move to the myfirstreact directory
 
     cd myfirstreact
     
-4. execute the React application myfirstreact
-    
+execute the React application myfirstreact
+
     npm start
     
-4-2. fix issue npm start 
+fix issue : npm start 
     
     npm install react-scripts@2.1.8
     npm start

@@ -58,3 +58,6 @@ fix issue : npm start
     npm install react-scripts@2.1.8
     npm start
     
+## Reference
+  https://www.w3schools.com/REACT/default.asp 
+  https://stackoverflow.com/questions/57054403/problem-with-npm-start-error-spawn-cmd-enoent
